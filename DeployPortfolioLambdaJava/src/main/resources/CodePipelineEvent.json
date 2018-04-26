@@ -1,0 +1,32 @@
+{
+  "CodePipeline.job": {
+    "id": "b4b320ed-e3e4-4f67-9670-d54c776ff6a9",
+    "accountId": "303314016707",
+    "data": {
+      "actionConfiguration": {
+        "configuration": {
+          "FunctionName": "deployPortfolio_Java"
+        }
+      },
+      "inputArtifacts": [
+        {
+          "location": {
+            "type": "S3",
+            "s3Location": {
+              "objectKey": "PortfolioPipeline_Ja/MyAppBuild/tH1T13d",
+              "bucketName": "codepipeline-us-east-1-483533611365"
+            }
+          },
+          "revision": null,
+          "name": "MyAppBuild"
+        }
+      ],
+      "outputArtifacts": [],
+      "artifactCredentials": {
+        "sessionToken": "AgoGb3JpZ2luEH0aCXVzLWVhc3QtMSKAAjL90Z9WHTZPvZOS6HnsNG9My5fplPTITEguytaHQy7YNuibuyWj58Jul+DI9xXHvpPbJAHUaj7zH9nfoKht87wv1esBTz8+KlSl4iQP2+9ed6b4u6Ix66VNALe1SHjI+O+oEO+Np0dvi7fd1ntksulrvt6FMkfeDG8URpw+AFmB4jvX+YxQzMISvGUF5oCqeOCYjOynxVLKVEN+0q9ebqUD/3bjxUXDjv1jinWuyjKlcuMaZeNrckAEfY1FWCzVkGI/J21pxufJySOhsSg5jtmcCTXU8ORQDMBQAjLqPd70nRqhpsKSu69su8Yj7kcRGsmdIc3LL3w17JPnCMnP/UUqkQUIkv//////////ARABGgwzMDMzMTQwMTY3MDciDFxH7nm/BvqIRSQR7irlBNZ2tgxzx9f6aXYhtPmbWUIKckYetFO4sl+SkMm9mW3h2ehMxdKCVlAAzh2O9blmTDVLUv0PB6fPz5rbI1blsEtiKpY9lpE2JlpvLQmOXSMemxCbXOhIGZW3vQVZZQJlD/COQorYv+PDzF21xl+p2zNWgC7Ms69y55s9Njr2CuUbEJgz3fy3W3VwjkR4Wl2CUK1JwrZqB2OYE6qt053a8fY5nsJ8dOxHQ4oWnc+5S4dt63DJGHReqCDEeLaUT1FLB/ZCH2YhBUmQVt+NOvuhIoaizjKWLxixH3Gx7ogvqgc+yC2iHfOunHPg4XGWqNH38QIlJwgdLd8p04ytSBg+5qLwBJoSyS5ui44uhmvsEYJk8DjTW4o26OGXjfmK6f7R6Cx2FE1buTqf5QSXHSX48FghSsz4K7BEyqooQfXSw35ecUpXHOHIdDDUMrrRgEeFzgIOnXTOQpo4FL/w8XQ7u8NQ6x92Z3YgNPZ5fvYht0WDkMqnr5pzSGrRocBqaNHQrF4pqdq74qweWXUkYPSjbJBGgx5LG01dHc9E1RPFK+parjU4f/cVlj2Wi1OcMlEQRUBrGj3mjNOy/K9AZYupaz7o7k+xQ+E+UL3kp5YHJB/HNFCWWetaBkqaSASHxPcRLk5IodM1z8KKchoIuQc/eiLZpR8aacCQyhbZMKjd7zNBQGlaXR2ExOdnsHgeX39GgKEx+8Xs+7jH0kci+xXq80H6/zCrKM8JPjcOzO506+GIhliqDvM9FWeMScVjsjzLMQeptJeZEZZQzSBXTKZpVOzAP7AUWGWHT6695ATWilty7VtcjjQw5vLp1QU=",
+        "secretAccessKey": "P6Ml6PzfA5UU1meUsDSnM9OUZcsqs7lpDK+XqCU1",
+        "accessKeyId": "ASIAI7RXZ23A47S6QZBA"
+      }
+    }
+  }
+}
