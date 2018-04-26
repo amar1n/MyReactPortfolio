@@ -19,29 +19,29 @@ export default props => {
         <h4>Background</h4>
         <hr className='sub' />
         <div className="row">
-          <div className="col s12 m4">
+          <div className="col s12 m4" style={{ paddingTop: '50px' }} >
             <img src={cleverLogo} alt="Clever Global" className='bgImg responsive-img' style={{ width: '75%' }} />
             <div className="background-text text-faded">
               Responsible for the development and evolution of <strong>iQuotes Suite®</strong>, a J2EE Web Application for <em>strategic purchasing management</em>.
-                </div>
+            </div>
             <div className="background-text text-faded">
               Designed and implemented <strong>iQuotes Suite®</strong> projects that integrates with {"clients'"} <em>ERPs and Marketplaces</em>, including functional APIs, single sign-on, integrated look-and-feel and deployment in multiple platforms like BEA WebLogic, JBoss, Tomcat and IBM WebSphere.
-                </div>
+            </div>
           </div>
-          <div className="col s12 m4">
+          <div className="col s12 m4" style={{ paddingTop: '50px' }} >
             <img src={wincorNixdorfLogo} alt="Wincor Nixdorf" className='bgImg responsive-img' style={{ width: '50%' }} />
             <div className="background-text text-faded">
               Developed a VB6/COM+ windows-based module of <strong>INFINIX TransX</strong> solution related to the <em>banking area for Corp Banca</em>.
-                </div>
+            </div>
             <div className="background-text text-faded">
               Designed and implemented several software solutions for the <strong>ProCash Deposit Terminal</strong> and the <strong>ProPrint 2000 Customer Information Printer / Interactive Kiosk Terminal</strong> for <em>Banesco and Banco de Venezuela</em>.
-                </div>
+            </div>
           </div>
-          <div className="col s12 m4">
+          <div className="col s12 m4" style={{ paddingTop: '50px' }} >
             <img src={usbLogo} alt="USB" className='bgImg responsive-img' style={{ width: '35%' }} />
             <div className="background-text text-faded">
               Earning my bachelor's degree in <strong>Computer Engineering</strong> is how I acquired my logical and analytical skills.
-                </div>
+            </div>
           </div>
         </div>
       </div>
