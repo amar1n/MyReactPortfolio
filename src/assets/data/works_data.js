@@ -8,7 +8,7 @@ export default [
         info: 'My serverless portfolio using Git, GitHub, AWS (Lambda, S3, CloudFront, IAM, Route 53, SNS, CodeBuild, CodePipeline), Java8, ReactJS, Material Design, Font Awesome, NPM, Webpack and Babel.',
         img: portfolio,
         alt: 'Portfolio',
-        codeLink: 'https://github.com/amar1n/my-portfolio',
+        codeLink: 'https://github.com/amar1n/MyReactPortfolio',
         demoLink: '',
         youtubeLink: '',
         imgLarge: portfolioArchitecture
