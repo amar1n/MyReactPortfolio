@@ -20,7 +20,7 @@ export default props => {
         <hr className='sub' />
         <div className="row">
           <div className="col s12 m4">
-            <img src={cleverLogo} alt="LearningFuze" className='bgImg responsive-img' style={{ width: '75%' }} />
+            <img src={cleverLogo} alt="Clever Global" className='bgImg responsive-img' style={{ width: '75%' }} />
             <div className="background-text text-faded">
               Responsible for the development and evolution of <strong>iQuotes Suite®</strong>, a J2EE Web Application for <em>strategic purchasing management</em>.
                 </div>
@@ -29,7 +29,7 @@ export default props => {
                 </div>
           </div>
           <div className="col s12 m4">
-            <img src={wincorNixdorfLogo} alt="Kingston" className='bgImg responsive-img' style={{ width: '50%' }} />
+            <img src={wincorNixdorfLogo} alt="Wincor Nixdorf" className='bgImg responsive-img' style={{ width: '50%' }} />
             <div className="background-text text-faded">
               Developed a VB6/COM+ windows-based module of <strong>INFINIX TransX</strong> solution related to the <em>banking area for Corp Banca</em>.
                 </div>
@@ -38,7 +38,7 @@ export default props => {
                 </div>
           </div>
           <div className="col s12 m4">
-            <img src={usbLogo} alt="Cal Poly" className='bgImg responsive-img' style={{ width: '35%' }} />
+            <img src={usbLogo} alt="USB" className='bgImg responsive-img' style={{ width: '35%' }} />
             <div className="background-text text-faded">
               Earning my bachelor's degree in <strong>Computer Engineering</strong> is how I acquired my logical and analytical skills.
                 </div>

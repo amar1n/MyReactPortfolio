@@ -33,13 +33,13 @@ export default props => {
 
         <div className="row">
           <div className="col s12 l4 skills">
-            <img className="col s12 awsLogo" src={awsLogo} alt="AWS" />
+            <img className="col s12 awsLogo" src={awsLogo} alt="AWS" style={{padding: '25px'}} />
           </div>
           <div className="col s12 l4 skills">
-            <img className="col s11 javaLogo" src={javaLogo} alt="JAVA" />
+            <img className="col s11 javaLogo" src={javaLogo} alt="JAVA" style={{padding: '25px'}} />
           </div>
           <div className="col s12 l4 skills">
-            <img className="col s12 psmLogo" src={psmLogo} alt="Scrum" />
+            <img className="col s12 psmLogo" src={psmLogo} alt="Scrum" style={{padding: '25px'}} />
           </div>
         </div>
 
