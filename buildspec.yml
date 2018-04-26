@@ -17,6 +17,7 @@ artifacts:
   files:
     - dist/bundle.js
     - favicon/*
+    - src/assets/images/landing/splash.jpg
     - src/assets/images/*
     - AlbertoMarinGarciaResume.pdf
     - index.html
