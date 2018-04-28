@@ -60,7 +60,7 @@ class CardWork extends React.Component {
                         contentLabel="Youtube Modal"
                     >
                         <h5>{this.props.title}</h5>
-                        <ReactPlayer url={this.props.youtube} controls />
+                        <ReactPlayer url={this.props.youtube} controls width="100%" />
                     </Modal>
                 </span>
             );
