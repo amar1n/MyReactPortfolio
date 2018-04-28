@@ -87,7 +87,7 @@ class CardWork extends React.Component {
         return (
             <div className="card col m6 s12 l4">
                 <div className="card-image waves-effect waves-block waves-light">
-                    <img className="activator work-img" src={this.props.src} alt={this.props.alt} style={{ width: '89%' }} />
+                    <img className="activator work-img" src={this.props.src} alt={this.props.alt} style={{ maxWidth: '100%', height: 'auto' }} />
                 </div>
                 <div className="card-content">
                     <span className="card-title activator">{this.props.title}<i className="fas fa-plus pull-right fa-xs"></i></span>
