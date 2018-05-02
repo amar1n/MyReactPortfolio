@@ -58,7 +58,10 @@ class CardWork extends React.Component {
                         style={customStyles}
                         contentLabel="Youtube Modal"
                     >
-                        <h5>{this.props.title}</h5>
+                        <h5>
+                            {this.props.title}
+                            <span style={{ cursor: 'pointer' }} onClick={this.closeModal}><i className="fas fa-times pull-right fa-xs"></i></span>
+                        </h5>
                         <ReactPlayer url={this.props.youtube} controls width="100%" />
                     </Modal>
                 </span>
@@ -76,7 +79,10 @@ class CardWork extends React.Component {
                         style={customStyles}
                         contentLabel="Image Modal"
                     >
-                        <h5>{this.props.title}</h5>
+                        <h5>
+                            {this.props.title}
+                            <span style={{ cursor: 'pointer' }} onClick={this.closeModal}><i className="fas fa-times pull-right fa-xs"></i></span>
+                        </h5>
                         <img src={this.props.imgLarge} alt="Description" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '70%' }} />
                     </Modal>
                 </span>
