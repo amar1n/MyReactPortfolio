@@ -1,9 +1,10 @@
 import React from 'react';
 import CardWork from './work_card';
-import workDataArray from '../assets/data/works_data';
 
 class Works extends React.Component {
     render() {
+        let workDataArray = this.props.data;
+
         const workList = workDataArray.map((item, index) => {
             return (
                 <CardWork

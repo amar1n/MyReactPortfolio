@@ -16,11 +16,9 @@ const customStyles = {
     }
 };
 
-Modal.setAppElement('#root')
-
 class CardWork extends React.Component {
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
             modalIsOpen: false
@@ -52,6 +50,7 @@ class CardWork extends React.Component {
                 <span>
                     <a className="waves-effect waves-light btn" onClick={this.openModal}><i className="fab fa-youtube pull-right"></i></a>
                     <Modal
+                        appElement={document.getElementById('root')}
                         isOpen={this.state.modalIsOpen}
                         onAfterOpen={this.afterOpenModal}
                         onRequestClose={this.closeModal}
@@ -71,6 +70,7 @@ class CardWork extends React.Component {
                 <span>
                     <a className="waves-effect waves-light btn" onClick={this.openModal}><i className="fas fa-expand-arrows-alt pull-right"></i></a>
                     <Modal
+                        appElement={document.getElementById('root')}
                         isOpen={this.state.modalIsOpen}
                         onAfterOpen={this.afterOpenModal}
                         onRequestClose={this.closeModal}

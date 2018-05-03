@@ -1,6 +1,6 @@
 # Alberto Marín's portfolio
 
-This is my professional portfolio.
+This is my professional portfolio using the latest web design technologies.
 
 ## Technologies Used
 
@@ -15,6 +15,8 @@ This is my professional portfolio.
 * React
 * JSX
 * MaterializeCSS
+* Jest
+* Enzyme
 
 ### Back-End
 * Brew
