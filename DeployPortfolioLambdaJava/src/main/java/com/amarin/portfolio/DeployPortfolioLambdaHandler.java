@@ -23,29 +23,10 @@ import java.util.Properties;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
+import static com.amarin.portfolio.DeployPortfolioLambdaConstants.*;
+
 // Handler: com.amarin.portfolio.DeployPortfolioLambdaHandler::handleRequest
 public class DeployPortfolioLambdaHandler {
-    // According to... https://docs.aws.amazon.com/codepipeline/latest/userguide/actions-invoke-lambda-function.html
-    private static final String JSON_JOB = "CodePipeline.job";
-    private static final String JSON_ID = "id";
-    private static final String JSON_DATA = "data";
-    private static final String JSON_INPUT_ARTIFACTS = "inputArtifacts";
-    private static final String JSON_NAME = "name";
-    private static final String JSON_LOCATION = "location";
-    private static final String JSON_S3_LOCATION = "s3Location";
-    private static final String JSON_BUCKET_NAME = "bucketName";
-    private static final String JSON_OBJECT_KEY = "objectKey";
-
-    private static String TOPIC_ARN = "topicArn";
-    private static String BUCKET_CODE_BUILD = "bucketCodeBuild";
-    private static String ARTIFACT_CODE_BUILD = "artifactCodeBuild";
-    private static String BUCKET_PORTFOLIO = "bucketPortfolio";
-    private static String SNS_TITLE_OK = "snsTitleOK";
-    private static String SNS_MSG_OK = "snsMsgOK";
-    private static String SNS_TITLE_ERROR = "snsTitleError";
-    private static String SNS_MSG_ERROR = "snsMsgError";
-    private static String CODE_BUILD_ARTIFACT_NAME = "codeBuildArtifactName";
-
     private AWSCodePipeline codePipelineClient;
     private AmazonSNS snsClient;
     private AmazonS3 s3client;
