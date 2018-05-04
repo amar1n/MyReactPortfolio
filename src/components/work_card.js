@@ -79,7 +79,7 @@ class CardWork extends React.Component {
                     >
                         <span style={{ cursor: 'pointer' }} onClick={this.closeModal}><i className="fas fa-times pull-right fa-xs"></i></span>
                         <h5>{this.props.title}</h5>
-                        <img src={this.props.imgLarge} alt="Description" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '70%' }} />
+                        <img src={this.props.imgLarge} alt="Description" style={{ display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '50%' }} />
                     </Modal>
                 </span>
             );
