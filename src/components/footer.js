@@ -25,7 +25,7 @@ export default props => {
           </div>
         </div>
       </div>
-      <div className="footer-copyright">
+      <div>
         <div className="container">
           © 2018
             <div className="right">Built with React, MaterializeCSS and Font Awesome</div>
