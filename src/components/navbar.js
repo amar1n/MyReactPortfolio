@@ -95,7 +95,7 @@ export default class NavBar extends Component {
                             <li><Link activeClass="active" className="nav-text" to="about" smooth={true} duration={500}>About</Link></li>
                             <li><Link activeClass="active" className="nav-text" to="skills" smooth={true} duration={500}>Skills</Link></li>
                             <li><Link activeClass="active" className="nav-text" to="courses" smooth={true} duration={500}>Courses</Link></li>
-                            <li><Link activeClass="active" className="nav-text" to="footer" smooth={true} duration={500}>Contact</Link></li>
+                            <li><Link activeClass="active" className="nav-text" to="contact" smooth={true} duration={500}>Contact</Link></li>
                         </ul>
                     </div>
                 </nav>
@@ -110,7 +110,7 @@ export default class NavBar extends Component {
                             <li><Link activeClass="active" className="nav-text" to="about" smooth={true} duration={500}>About</Link></li>
                             <li><Link activeClass="active" className="nav-text" to="skills" smooth={true} duration={500}>Skills</Link></li>
                             <li><Link activeClass="active" className="nav-text" to="courses" smooth={true} duration={500}>Courses</Link></li>
-                            <li><Link activeClass="active" className="nav-text" to="footer" smooth={true} duration={500}>Contact</Link></li>
+                            <li><Link activeClass="active" className="nav-text" to="contact" smooth={true} duration={500}>Contact</Link></li>
                         </ul>
                     </div>
                 </nav>

@@ -37,6 +37,7 @@ This is my professional portfolio using the latest web design technologies.
 * Lambda
 * SNS
 * CodePipeline
+* API Gateway
 
 ### General
 * Git

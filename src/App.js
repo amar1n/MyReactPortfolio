@@ -12,6 +12,7 @@ import About from './components/about';
 import Skills from './components/skills';
 import Courses from './components/courses';
 import Footer from './components/footer';
+import Contact from './components/contact';
 
 import worksDataArray from './assets/data/works_data';
 import courseDataArray from './assets/data/courses_data';
@@ -26,6 +27,7 @@ class App extends Component {
         <About />
         <Skills />
         <Courses data={courseDataArray} />
+        <Contact />
         <Footer />
       </div>
     );

@@ -1,0 +1,40 @@
+{
+  "resource": "/",
+  "path": "/",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": "origin"
+  },
+  "queryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "path": "/",
+    "accountId": "303314016707",
+    "resourceId": "3cpa2r9u8k",
+    "stage": "test-invoke-stage",
+    "requestId": "test-invoke-request",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "cognitoIdentityId": null,
+      "apiKey": "test-invoke-api-key",
+      "cognitoAuthenticationType": null,
+      "userArn": "arn:aws:iam::303314016707:user/PortfolioAdmin",
+      "apiKeyId": "test-invoke-api-key-id",
+      "userAgent": "userAgent",
+      "accountId": "303314016707",
+      "caller": "AIDAIHP24RN5KVZPTKS72",
+      "sourceIp": "sourceIp",
+      "accessKey": "ASIAILRXN5P5PWLBPJLQ",
+      "cognitoAuthenticationProvider": null,
+      "user": "AIDAIHP24RN5KVZPTKS72"
+    },
+    "resourcePath": "/",
+    "httpMethod": "POST",
+    "extendedRequestId": "test-invoke-extendedRequestId",
+    "apiId": "c3u5043pyb"
+  },
+  "body": "{\n    \"name\": \"Wolverine\",\n    \"email\": \"logan@marvel.com\",\n    \"subject\": \"Test\",\n    \"message\": \"This is a test\"\n}",
+  "isBase64Encoded": false
+}
