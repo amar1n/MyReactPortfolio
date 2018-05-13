@@ -46,7 +46,7 @@ public class DeployPortfolioLambdaHandler {
     }
 
     private void processEvent(InputStream is) throws IOException {
-        bucketCodeBuild = getProperty(BUCKET_CODE_BUILD);
+        bucketCodeBuild = System.getenv(BUCKET_CODE_BUILD);
         artifactCodeBuild = getProperty(ARTIFACT_CODE_BUILD);
         String codeBuildArtifactName = getProperty(CODE_BUILD_ARTIFACT_NAME);
 
@@ -109,8 +109,9 @@ public class DeployPortfolioLambdaHandler {
                 ObjectMetadata meta = new ObjectMetadata();
                 meta.setContentLength(outputStream.size());
                 meta.setContentType(mimeType);
+                String bucketPortfolio = System.getenv(BUCKET_PORTFOLIO);
                 PutObjectRequest putObjectRequest = new PutObjectRequest(
-                        getProperty(BUCKET_PORTFOLIO),
+                        bucketPortfolio,
                         ze.getName(),
                         new ByteArrayInputStream(outputStream.toByteArray()),
                         meta
@@ -130,7 +131,8 @@ public class DeployPortfolioLambdaHandler {
     }
 
     private void snsPublish(String msg, String title) {
-        PublishRequest publishRequest = new PublishRequest(getProperty(TOPIC_ARN), msg, title);
+        String topicArn = System.getenv(DEPLOYED_TOPIC_ARN);
+        PublishRequest publishRequest = new PublishRequest(topicArn, msg, title);
         snsClient.publish(publishRequest);
     }
 

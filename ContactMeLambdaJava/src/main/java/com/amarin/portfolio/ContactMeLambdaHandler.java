@@ -42,8 +42,10 @@ public class ContactMeLambdaHandler {
             if (event.get(JSON_HEADERS) != null) {
                 JSONObject eventHeaders = (JSONObject) event.get(JSON_HEADERS);
                 String eventOrigin = (String) eventHeaders.get(JSON_HEADER_KEY_ORIGIN);
+                String portfolioURL = System.getenv(PORTFOLIO_URL);
+                String localHostURL = System.getenv(LOCALHOST_URL);
                 if (eventOrigin != null &&
-                        (eventOrigin.equals(getProperty(PORTFOLIO_URL)) || eventOrigin.equals(getProperty(LOCALHOST_URL)))) {
+                        (eventOrigin.equals(portfolioURL) || eventOrigin.equals(localHostURL))) {
                     origin = eventOrigin;
                 }
             }
@@ -85,7 +87,8 @@ public class ContactMeLambdaHandler {
         messageJson.put(JSON_CONTACT_SUBJECT, contactSubject);
         messageJson.put(JSON_CONTACT_MESSAGE, contactMessage);
 
-        PublishRequest publishRequest = new PublishRequest(getProperty(TOPIC_ARN), messageJson.toJSONString(), getProperty(SNS_TITLE));
+        String topicArn = System.getenv(CONTACT_ME_TOPIC_ARN);
+        PublishRequest publishRequest = new PublishRequest(topicArn, messageJson.toJSONString(), getProperty(SNS_TITLE));
         snsClient.publish(publishRequest);
     }
 

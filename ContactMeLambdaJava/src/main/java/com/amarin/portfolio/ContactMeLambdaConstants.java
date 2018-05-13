@@ -28,9 +28,9 @@ public interface ContactMeLambdaConstants {
     public static final String RESPONSE_BODY = "body";
     public static final String RESPONSE_EXCEPTION = "exception";
 
-    public static final String TOPIC_ARN = "topicArn";
     public static final String SNS_TITLE = "snsTitle";
 
+    public static final String CONTACT_ME_TOPIC_ARN = "CONTACT_ME_TOPIC_ARN";
     public static final String PORTFOLIO_URL = "PORTFOLIO_URL";
     public static final String LOCALHOST_URL = "LOCALHOST_URL";
 }

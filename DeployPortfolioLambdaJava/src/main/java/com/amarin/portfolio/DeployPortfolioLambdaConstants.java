@@ -12,13 +12,14 @@ public interface DeployPortfolioLambdaConstants {
     public static final String JSON_BUCKET_NAME = "bucketName";
     public static final String JSON_OBJECT_KEY = "objectKey";
 
-    public static final String TOPIC_ARN = "topicArn";
-    public static final String BUCKET_CODE_BUILD = "bucketCodeBuild";
     public static final String ARTIFACT_CODE_BUILD = "artifactCodeBuild";
-    public static final String BUCKET_PORTFOLIO = "bucketPortfolio";
     public static final String SNS_TITLE_OK = "snsTitleOK";
     public static final String SNS_MSG_OK = "snsMsgOK";
     public static final String SNS_TITLE_ERROR = "snsTitleError";
     public static final String SNS_MSG_ERROR = "snsMsgError";
     public static final String CODE_BUILD_ARTIFACT_NAME = "codeBuildArtifactName";
+
+    public static final String DEPLOYED_TOPIC_ARN = "DEPLOYED_TOPIC_ARN";
+    public static final String BUCKET_CODE_BUILD = "BUCKET_CODE_BUILD";
+    public static final String BUCKET_PORTFOLIO = "BUCKET_PORTFOLIO";
 }
