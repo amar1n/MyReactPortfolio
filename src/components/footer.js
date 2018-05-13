@@ -28,7 +28,7 @@ export default props => {
       <div>
         <div className="container">
           © 2018
-            <div className="right">Built with React, MaterializeCSS and Font Awesome</div>
+            <div className="right">Built with React, MaterializeCSS & Font Awesome</div>
         </div>
       </div>
     </section>
