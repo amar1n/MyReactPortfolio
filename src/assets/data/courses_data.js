@@ -30,6 +30,16 @@ export default [
         loved: true
     },
     {
+        name: 'OCA Java SE 8 Programmer I (1Z0-808)',
+        startDate: '',
+        endDate: '07/2017',
+        school: 'Pearson IT Certification',
+        duration: '18h',
+        url: 'https://www.safaribooksonline.com/library/view/oca-java-se/9780134427201/',
+        highlight: '',
+        loved: true
+    },
+    {
         name: 'KeepCoding Mobile Startup Engineering Bootcamp',
         startDate: '04/2016',
         endDate: '04/2017',
