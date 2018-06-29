@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import Recaptcha from 'react-recaptcha';
 
 export default class Contact extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            isVerified: false,
             name: '',
             message: '',
             email: '',
@@ -16,8 +18,22 @@ export default class Contact extends Component {
         }
         this.emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
+        this.recaptchaLoaded = this.recaptchaLoaded.bind(this);
+        this.recaptchaVerifyCallback = this.recaptchaVerifyCallback.bind(this);
         this.sendData = this.sendData.bind(this);
         this.validEmail = this.validEmail.bind(this);
+    }
+
+    recaptchaLoaded() {
+        console.log('Recaptcha successfully loaded!!!');
+    }
+
+    recaptchaVerifyCallback(response) {
+        if (response) {
+            this.setState({
+                isVerified: true
+            });
+        }
     }
 
     sendData(event) {
@@ -27,7 +43,13 @@ export default class Contact extends Component {
         let response = '';
         let sendToServer = true;
 
-        if (!/\S/.test(name)) {
+        if (!this.state.isVerified) {
+            this.setState({
+                response: 'Please verify that you are a human',
+                redMsg: true
+            });
+            sendToServer = false;
+        } else if (!/\S/.test(name)) {
             this.setState({
                 response: 'Please enter a name',
                 redMsg: true
@@ -55,10 +77,6 @@ export default class Contact extends Component {
         }
 
         if (sendToServer) {
-            setTimeout(() => {
-                this.submitCheck, 5000
-            });
-
             let data = { name, email, subject, message }
             axios.post('https://p1an0b8fgh.execute-api.us-east-1.amazonaws.com/dev/contactMePortfolio_Java', JSON.stringify(data),
                 { headers: { 'Content-Type': 'text/plain' } })
@@ -74,18 +92,7 @@ export default class Contact extends Component {
         }
     }
 
-    submitCheck() {
-        const { submit } = this.state;
-        if (submit === false) {
-            this.setState({
-                response: '404 Error. Message has not been sent!',
-                redMsg: true
-            });
-        }
-    }
-
     errorResponse(error) {
-        //let errorString = JSON.stringify(error);
         this.setState({
             response: 'There was an issue sending the email. Please try again!',
             submit: false,
@@ -94,7 +101,6 @@ export default class Contact extends Component {
     }
 
     updateState(response) {
-        // console.log('repsonse', response);
         if (response.data.success) {
             this.setState({
                 name: '',
@@ -190,9 +196,21 @@ export default class Contact extends Component {
                                     <textarea id="textArea1" className="materialize-textarea validate" type="text" placeholder="Message" value={message} name="message" onChange={e => this.setState({ message: e.target.value })} />
                                 </div>
                             </div>
-                            <button className="btn waves-effect waves-light" type="submit" name="action">Submit<i className="material-icons right">send</i>
-                            </button>
-                            {submitResult}
+                            <div className="row">
+                                <div className="col s12">
+                                    <button className="btn waves-effect waves-light" type="submit" name="action">Submit<i className="material-icons right">send</i></button>
+                                    {submitResult}
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col s12">
+                                    <Recaptcha
+                                        sitekey="6LfZYmEUAAAAAGC8r5vwi1P6-Ebibv53Nz83twNv"
+                                        render="explicit"
+                                        verifyCallback={this.recaptchaVerifyCallback}
+                                        onloadCallback={this.recaptchaLoaded} />
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
