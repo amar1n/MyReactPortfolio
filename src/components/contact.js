@@ -78,7 +78,7 @@ export default class Contact extends Component {
 
         if (sendToServer) {
             let data = { name, email, subject, message }
-            axios.post('https://p1an0b8fgh.execute-api.us-east-1.amazonaws.com/dev/contactMePortfolio_Java', JSON.stringify(data),
+            axios.post('https://p1an0b8fgh.execute-api.us-east-1.amazonaws.com/prod', JSON.stringify(data),
                 { headers: { 'Content-Type': 'text/plain' } })
                 .then(resp => {
                     this.updateState(resp);
