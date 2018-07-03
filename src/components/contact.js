@@ -78,8 +78,8 @@ export default class Contact extends Component {
 
         if (sendToServer) {
             let data = { name, email, subject, message }
-            axios.post('https://p1an0b8fgh.execute-api.us-east-1.amazonaws.com/prod', JSON.stringify(data),
-                { headers: { 'Content-Type': 'text/plain' } })
+            axios.post('https://t8thylbku7.execute-api.us-east-1.amazonaws.com/dev/contactMePortfolio_Java', JSON.stringify(data),
+                { headers: { 'Content-Type': 'text/plain', 'x-api-key': 'AwAGS8eVVA4Ts9913T6bJ7Y1mN3gAt2r1qrWMQPc' } })
                 .then(resp => {
                     this.updateState(resp);
                 }).catch(err => {
