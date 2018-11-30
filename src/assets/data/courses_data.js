@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'Serverless in Spanish with AWS and Serverless Framework',
+        startDate: '',
+        endDate: '11/2018',
+        school: 'Marcia Villalba & Udemy',
+        duration: '2.5h',
+        url: 'https://www.udemy.com/serverless-en-espanol/',
+        highlight: true,
+        loved: ''
+    },
+    {
         name: 'Create a Serverless Portfolio with AWS and React',
         startDate: '',
         endDate: '04/2018',
