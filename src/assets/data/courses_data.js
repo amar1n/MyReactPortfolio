@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'React from scratch',
+        startDate: '',
+        endDate: '01/2019',
+        school: 'KeepCoding® Online',
+        duration: '12h',
+        url: 'https://plataforma.keepcoding.io/p/curso-completo-react-desde-cero',
+        highlight: true,
+        loved: ''
+    },
+    {
         name: 'Serverless in Spanish with AWS and Serverless Framework',
         startDate: '',
         endDate: '11/2018',
