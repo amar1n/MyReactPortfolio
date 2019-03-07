@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'React Native Fundamentals',
+        startDate: '',
+        endDate: '03/2019',
+        school: 'Egghead',
+        duration: '1.5h',
+        url: 'https://egghead.io/courses/react-native-fundamentals',
+        highlight: true,
+        loved: true
+    },
+    {
         name: 'React from scratch',
         startDate: '',
         endDate: '01/2019',
