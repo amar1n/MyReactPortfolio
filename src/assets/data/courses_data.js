@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'Build a React Native Todo Application',
+        startDate: '',
+        endDate: '03/2019',
+        school: 'Egghead',
+        duration: '1h',
+        url: 'https://egghead.io/courses/build-a-react-native-todo-application',
+        highlight: true,
+        loved: true
+    },
+    {
         name: 'React Native Fundamentals',
         startDate: '',
         endDate: '03/2019',
@@ -7,7 +17,7 @@ export default [
         duration: '1.5h',
         url: 'https://egghead.io/courses/react-native-fundamentals',
         highlight: true,
-        loved: true
+        loved: ''
     },
     {
         name: 'React from scratch',
