@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'React Native and MobX full course - Spanish 2019',
+        startDate: '',
+        endDate: '05/2019',
+        school: 'Udemy',
+        duration: '3.5h',
+        url: 'https://www.udemy.com/curso-completo-de-react-native-y-mobx',
+        highlight: true,
+        loved: true
+    },
+    {
         name: 'Build a React Native Todo Application',
         startDate: '',
         endDate: '03/2019',
