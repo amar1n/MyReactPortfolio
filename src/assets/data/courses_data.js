@@ -1,5 +1,25 @@
 export default [
     {
+        name: 'Advanced React course (Redux and Testing)',
+        startDate: '',
+        endDate: '06/2019',
+        school: 'Make it Real',
+        duration: '1.4h',
+        url: 'https://www.youtube.com/playlist?list=PLxyfMWnjW2kuyePV1Gzn5W_gr3BGIZq8G',
+        highlight: '',
+        loved: ''
+    },
+    {
+        name: 'React Native - The Practical Guide',
+        startDate: '',
+        endDate: '06/2019',
+        school: 'Udemy',
+        duration: '16.5h',
+        url: 'https://www.udemy.com/react-native-the-practical-guide',
+        highlight: true,
+        loved: true
+    },
+    {
         name: 'React Native and MobX full course - Spanish 2019',
         startDate: '',
         endDate: '05/2019',
