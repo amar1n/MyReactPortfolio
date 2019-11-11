@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'React Native - The Practical Guide (2019 UPDATE)',
+        startDate: '',
+        endDate: '11/2019',
+        school: 'Udemy',
+        duration: '27h',
+        url: 'https://www.udemy.com/react-native-the-practical-guide',
+        highlight: true,
+        loved: true
+    },
+    {
         name: 'Advanced React course (Redux and Testing)',
         startDate: '',
         endDate: '06/2019',
