@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'React.js Hooks Crash Course',
+        startDate: '',
+        endDate: '11/2019',
+        school: 'Academind',
+        duration: '1h',
+        url: 'https://academind.com/learn/react/react-hooks-introduction/',
+        highlight: '',
+        loved: ''
+    },
+    {
         name: 'React Native - The Practical Guide (2019 UPDATE)',
         startDate: '',
         endDate: '11/2019',
