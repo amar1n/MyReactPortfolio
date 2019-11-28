@@ -3,7 +3,7 @@ export default [
         name: 'IoT Security Bootcamp',
         startDate: '',
         endDate: '11/2019',
-        school: 'SevenShift GmbH',
+        school: 'SevenShift GmbH. Cologne, Germany',
         duration: '24h',
         url: 'https://sevenshift.de/training/iot-security-bootcamp/',
         highlight: true,
