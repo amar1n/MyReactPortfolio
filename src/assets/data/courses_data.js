@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'IoT Security Bootcamp',
+        startDate: '',
+        endDate: '11/2019',
+        school: 'SevenShift GmbH',
+        duration: '24h',
+        url: 'https://sevenshift.de/training/iot-security-bootcamp/',
+        highlight: true,
+        loved: ''
+    },
+    {
         name: 'React.js Hooks Crash Course',
         startDate: '',
         endDate: '11/2019',
