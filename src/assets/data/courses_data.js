@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'Learn the Newest and EASIEST React Native Stack',
+        startDate: '',
+        endDate: '04/2020',
+        school: 'Udemy',
+        duration: '1.5h',
+        url: 'https://www.udemy.com/course/how-to-make-a-full-stack-react-native-app-with-easy-backend',
+        highlight: '',
+        loved: ''
+    },
+    {
         name: 'IoT Security Bootcamp',
         startDate: '',
         endDate: '11/2019',
