@@ -17,6 +17,8 @@ class Works extends React.Component {
                     demo={item.demoLink}
                     youtube={item.youtubeLink}
                     imgLarge={item.imgLarge}
+                    appleStore={item.appleStore}
+                    googlePlay={item.googlePlay}
                 />
             );
         });

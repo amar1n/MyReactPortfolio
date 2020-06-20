@@ -23,6 +23,10 @@ import reactLogo from '../assets/images/skills/react-logo.png';
 import lambdaLogo from '../assets/images/skills/lambda.png';
 import cicdLogo from '../assets/images/skills/ci-cd.gif';
 
+import reactNativeExpoLogos from '../assets/images/skills/reactNativeExpo.png';
+import reactNavigationReduxLogos from '../assets/images/skills/reactNavigationRedux.png';
+import auth0NativeBaseLogos from '../assets/images/skills/auth0NativeBase.png';
+
 export default props => {
 
   return (
@@ -89,7 +93,16 @@ export default props => {
             <img className='col s2 reactLogo' src={reactLogo} alt='React' />
             <img className='col s2 lambdaLogo' src={lambdaLogo} alt='Lambda' />
             <img className='col s2 cicdLogo' src={cicdLogo} alt='CI/CD' />
-            <div className="col s6 skillsText">Fresh from the oven... this portfolio is a <strong>Serverless SPA</strong> developed with <strong>ReactJS, MaterializeCSS and Continuous Delivery on AWS & Java8</strong></div>
+            <div className="col s6 skillsText">This portfolio is a <strong>Serverless SPA</strong> developed with <strong>ReactJS, MaterializeCSS and Continuous Delivery on AWS & Java8</strong></div>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col skills">
+            <div className="col s6 skillsText">Fresh from the oven... during 2019 I became interested in <strong>React Native</strong> and put it into practice by creating a mobile App for <a target="_blank" href="https://elcatalejo.es/app">elCatalejo</a>. To develop it I used <strong>Expo, Auth0, React Navigation 5 and React Redux</strong>.</div>
+            <img className='col s2 reactNativeExpoLogos' src={reactNativeExpoLogos} alt='React Native & Expo' />
+            <img className='col s2 reactNavigationReduxLogos' src={reactNavigationReduxLogos} alt='React Navigation & Redux' />
+            <img className='col s2 auth0NativeBaseLogos' src={auth0NativeBaseLogos} alt='Auth0 & NativeBase' />
           </div>
         </div>
 

@@ -37,9 +37,16 @@ class CardWork extends React.Component {
     }
 
     render() {
+        let codeBtn = null;
         let demoBtn = null;
         let youtubeBtn = null;
         let imgModalBtn = null;
+        let appleStoreBtn = null;
+        let googlePlayBtn = null;
+
+        if (this.props.code !== "") {
+            codeBtn = (<a className="waves-effect waves-light btn" target="_blank" href={this.props.code}><i className="fab fa-rebel pull-right"></i>code&nbsp;&nbsp;</a>);
+        }
 
         if (this.props.demo !== "") {
             demoBtn = (<a className="waves-effect waves-light btn" target="_blank" href={this.props.demo}><i className="fab fa-empire pull-right"></i>demo&nbsp;&nbsp;</a>);
@@ -85,6 +92,22 @@ class CardWork extends React.Component {
             );
         }
 
+        if (this.props.appleStore !== "") {
+          appleStoreBtn = (
+              <span
+                dangerouslySetInnerHTML={{ __html: this.props.appleStore }}
+              ></span>
+          );
+        }
+
+        if (this.props.googlePlay !== "") {
+          googlePlayBtn = (
+              <span
+                dangerouslySetInnerHTML={{ __html: this.props.googlePlay }}
+              ></span>
+          );
+        }
+
         return (
             <div className="card col m6 s12 l4">
                 <div className="card-image waves-effect waves-block waves-light">
@@ -92,19 +115,27 @@ class CardWork extends React.Component {
                 </div>
                 <div className="card-content">
                     <span className="card-title activator">{this.props.title}<i className="fas fa-plus pull-right fa-xs"></i></span>
-                    <a className="waves-effect waves-light btn" target="_blank" href={this.props.code}><i className="fab fa-rebel pull-right"></i>code&nbsp;&nbsp;</a>
+                    {codeBtn}
                     {demoBtn}
                     {youtubeBtn}
                     {imgModalBtn}
+                    <div style={{display:"flex", alignItems:"center", justifyContent:"flex-start"}}>
+                        {appleStoreBtn}
+                        {googlePlayBtn}
+                    </div>
                 </div>
 
-                <div className="card-reveal">
+                <div style={{ whiteSpace: 'pre-wrap' }}  className="card-reveal">
                     <span className="card-title card-open">{this.props.title}<i className="fas fa-times pull-right fa-xs"></i></span>
                     <p>{this.props.info}</p>
-                    <a className="waves-effect waves-light btn" target="_blank" href={this.props.code}><i className="fab fa-rebel pull-right"></i>code&nbsp;&nbsp;</a>
+                    {codeBtn}
                     {demoBtn}
                     {youtubeBtn}
                     {imgModalBtn}
+                    <div style={{display:"flex", alignItems:"center", justifyContent:"flex-start"}}>
+                        {appleStoreBtn}
+                        {googlePlayBtn}
+                    </div>
                 </div>
             </div>
         )
