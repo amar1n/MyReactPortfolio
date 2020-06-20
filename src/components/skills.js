@@ -99,7 +99,7 @@ export default props => {
 
         <div className="row">
           <div className="col skills">
-            <div className="col s6 skillsText">Fresh from the oven... during 2019 I became interested in <strong>React Native</strong> and put it into practice by creating a mobile App for <a target="_blank" href="https://elcatalejo.es/app">elCatalejo</a>. To develop it I used <strong>Expo, Auth0, React Navigation 5 and React Redux</strong>.</div>
+            <div className="col s6 skillsText">Fresh from the oven... during 2019 I became interested in <strong>React Native</strong> and put it into practice by creating a mobile App for <a target="_blank" href="https://elcatalejo.es/app">elCatalejo</a>, developed with <strong>Expo, Auth0, React Navigation 5 and React Redux</strong>.</div>
             <img className='col s2 reactNativeExpoLogos' src={reactNativeExpoLogos} alt='React Native & Expo' />
             <img className='col s2 reactNavigationReduxLogos' src={reactNavigationReduxLogos} alt='React Navigation & Redux' />
             <img className='col s2 auth0NativeBaseLogos' src={auth0NativeBaseLogos} alt='Auth0 & NativeBase' />
