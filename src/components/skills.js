@@ -1,5 +1,6 @@
 import React from 'react';
 
+import mcpLogo from '../assets/images/skills/mcp.png';
 import awsLogo from '../assets/images/skills/aws.png';
 import javaLogo from '../assets/images/skills/java.png';
 import psmLogo from '../assets/images/skills/psm-1.png';
@@ -36,14 +37,20 @@ export default props => {
       <div className="container">
 
         <div className="row">
-          <div className="col s12 l4 skills">
-            <img className="col s12 awsLogo" src={awsLogo} alt="AWS" style={{padding: '25px'}} />
+          <div className="col l6 skills">
+            <img className="col s10 awsLogo" src={awsLogo} alt="AWS" style={{padding: '25px'}} />
           </div>
-          <div className="col s12 l4 skills">
-            <img className="col s11 javaLogo" src={javaLogo} alt="JAVA" style={{padding: '25px'}} />
+          <div className="col l6 skills">
+            <img className="col s10 javaLogo" src={javaLogo} alt="JAVA" style={{padding: '25px'}} />
           </div>
-          <div className="col s12 l4 skills">
-            <img className="col s12 psmLogo" src={psmLogo} alt="Scrum" style={{padding: '25px'}} />
+        </div>
+
+        <div className="row">
+          <div className="col l6 skills">
+            <img className="col s10 psmLogo" src={psmLogo} alt="Scrum" style={{padding: '25px'}} />
+          </div>
+          <div className="col l6 skills">
+            <img className="col s10 mcpLogo" src={mcpLogo} alt="MCP" style={{padding: '25px'}} />
           </div>
         </div>
 
