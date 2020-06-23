@@ -38,19 +38,19 @@ export default props => {
 
         <div className="row">
           <div className="col l6 skills">
-            <img className="col s10 awsLogo" src={awsLogo} alt="AWS" style={{padding: '25px'}} />
+            <img className="col s10 offset-s1 l10 offset-l1 awsLogo" src={awsLogo} alt="AWS" style={{padding: '25px'}} />
           </div>
           <div className="col l6 skills">
-            <img className="col s10 javaLogo" src={javaLogo} alt="JAVA" style={{padding: '25px'}} />
+            <img className="col s10 offset-s1 l10 offset-l1 javaLogo" src={javaLogo} alt="JAVA" style={{padding: '25px'}} />
           </div>
         </div>
 
         <div className="row">
           <div className="col l6 skills">
-            <img className="col s10 psmLogo" src={psmLogo} alt="Scrum" style={{padding: '25px'}} />
+            <img className="col s10 offset-s1 l10 offset-l1 psmLogo" src={psmLogo} alt="Scrum" style={{padding: '25px'}} />
           </div>
           <div className="col l6 skills">
-            <img className="col s10 mcpLogo" src={mcpLogo} alt="MCP" style={{padding: '25px'}} />
+            <img className="col s10 offset-s1 l10 offset-l1 mcpLogo" src={mcpLogo} alt="MCP" style={{padding: '25px'}} />
           </div>
         </div>
 
