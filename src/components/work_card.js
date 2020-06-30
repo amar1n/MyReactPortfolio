@@ -26,6 +26,9 @@ class CardWork extends React.Component {
 
         this.openModal = this.openModal.bind(this);
         this.closeModal = this.closeModal.bind(this);
+        this.closeCard = this.closeCard.bind(this);
+
+        this.myCardTitleRef = React.createRef();
     }
 
     openModal() {
@@ -34,6 +37,10 @@ class CardWork extends React.Component {
 
     closeModal() {
         this.setState({ modalIsOpen: false });
+    }
+
+    closeCard() {
+        this.myCardTitleRef.current.click();
     }
 
     render() {
@@ -133,8 +140,8 @@ class CardWork extends React.Component {
                 </div>
 
                 <div style={{ whiteSpace: 'pre-wrap' }}  className="card-reveal">
-                    <span className="card-title card-open"><i className="fas fa-times pull-right fa-xs"></i></span>
-                    <p><b><span style={{ fontSize: "medium" }}>{this.props.title}</span></b>{this.props.info}</p>
+                    <span className="card-title card-open" ref={this.myCardTitleRef}></span>
+                    <p style={{ cursor: "pointer" }} onClick={this.closeCard}><b><span style={{ fontSize: "medium" }}>{this.props.title}</span></b>{this.props.info}</p>
                     {codeBtn}
                     {demoBtn}
                     {youtubeBtn}
