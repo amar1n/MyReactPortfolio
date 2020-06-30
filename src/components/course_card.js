@@ -19,7 +19,7 @@ export default props => {
     }
 
     return (
-        <div className="card col m6 s12 l3">
+        <div className="card hoverable col s10 offset-s1 m6 l3">
             <p>
                 {courseName}
                 {lovedIcon}

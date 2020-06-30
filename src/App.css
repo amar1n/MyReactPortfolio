@@ -131,8 +131,6 @@ hr.sub {
 
 .row .col.card {
     padding: 0px 4px;
-    box-shadow: 0px 1px 0px rgba(0, 0, 0, .2);
-    margin-top: 0.5%;
     margin-bottom: 0;
     background-color: transparent;
 }

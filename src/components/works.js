@@ -12,6 +12,7 @@ class Works extends React.Component {
                     info={item.info}
                     src={item.img}
                     key={index}
+                    index={index}
                     alt={item.alt}
                     code={item.codeLink}
                     demo={item.demoLink}

@@ -108,8 +108,15 @@ class CardWork extends React.Component {
           );
         }
 
+        let myStyle = {};
+        if (this.props.index !== 0) {
+            myStyle = {
+                marginTop: '5%'
+            }
+        }
+
         return (
-            <div className="card col m6 s12 l4">
+            <div style={myStyle} className="card hoverable col s10 offset-s1 m6 offset-m3 l6 offset-l3">
                 <div className="card-image waves-effect waves-block waves-light">
                     <img className="activator work-img" src={this.props.src} alt={this.props.alt} style={{ maxWidth: '100%', height: 'auto' }} />
                 </div>
