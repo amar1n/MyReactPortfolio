@@ -133,8 +133,8 @@ class CardWork extends React.Component {
                 </div>
 
                 <div style={{ whiteSpace: 'pre-wrap' }}  className="card-reveal">
-                    <span className="card-title card-open">{this.props.title}<i className="fas fa-times pull-right fa-xs"></i></span>
-                    <p>{this.props.info}</p>
+                    <span className="card-title card-open"><i className="fas fa-times pull-right fa-xs"></i></span>
+                    <p><b><span style={{ fontSize: "medium" }}>{this.props.title}</span></b>{this.props.info}</p>
                     {codeBtn}
                     {demoBtn}
                     {youtubeBtn}

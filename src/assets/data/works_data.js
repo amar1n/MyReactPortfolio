@@ -6,7 +6,7 @@ import elCatalejo from '../images/work/elCatalejo.png';
 export default [
     {   
         name: 'Efimerum\'s backend',
-        info: 'EFIMERUM is an App that allows you to share photos without ornaments in an ephemeral way, where the life of the photo is not decided by the user who publishes it, but rather by the community through its "Likes".\n\nThe Backend was developed in 2017 using Express.js, Firebase and Google Cloud Platform (Vision, Storage, Compute Engine).',
+        info: ' is the heart of EFIMERUM, the App that allows you to share photos without ornaments in an ephemeral way, where the life of the photo is not decided by the user who publishes it, but rather by the community through its "Likes".\n\nThe Backend was developed in 2017 using Express.js, Firebase and Google Cloud Platform (Vision, Storage, Compute Engine).',
         img: efimerum,
         alt: 'Efimerum',
         codeLink: 'https://github.com/amar1n/efimerum-backend',
@@ -18,7 +18,7 @@ export default [
     },
     {
         name: 'Serverless Portfolio',
-        info: 'Serverless Portfolio is an excuse to show my skills, qualifications, education and experience.\n\nThe portfolio was developed in 2018 using Git, GitHub, AWS (API Gateway, Lambda, S3, CloudFront, IAM, Route 53, SNS, CodeBuild, CodePipeline), Java8, ReactJS, Material Design, Font Awesome, NPM, Webpack and Babel.',
+        info: ' is an excuse to show my skills, qualifications, education and experience.\n\nThe portfolio was developed in 2018 using Git, GitHub, AWS (API Gateway, Lambda, S3, CloudFront, IAM, Route 53, SNS, CodeBuild, CodePipeline), Java8, ReactJS, Material Design, Font Awesome, NPM, Webpack and Babel.',
         img: portfolio,
         alt: 'Portfolio',
         codeLink: 'https://github.com/amar1n/MyReactPortfolio',
@@ -30,7 +30,7 @@ export default [
     },
     {
         name: 'elCatalejo\'s App',
-        info: 'The App for LEGO® fans of all ages!!!\n\nEverything you need for your hobby, news, ideas and great offers selected for you. We track the main stores and find you the best prices. You can also create alarms to define how much you want to pay for the Sets and we will notify you when it happens.\n\nThe App was developed in 2020 using React Native, Expo 37, React Navigation 5, React Redux, Auth0 and NativeBase.',
+        info: ' is the App for LEGO® fans of all ages!!!\n\nEverything you need for your hobby, news, ideas and great offers selected for you. We track the main stores and find you the best prices. You can also create alarms to define how much you want to pay for the sets and we will notify you when it happens.\n\nThe App was developed in 2020 using React Native, Expo 37, React Navigation 5, React Redux, Auth0 and NativeBase.',
         img: elCatalejo,
         alt: 'elCatalejo',
         codeLink: '',
