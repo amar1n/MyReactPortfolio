@@ -134,6 +134,7 @@ class CardWork extends React.Component {
 
                 <div style={{ whiteSpace: 'pre-wrap' }}  className="card-reveal">
                     <span className="card-title card-open"><i className="fas fa-times pull-right fa-xs"></i></span>
+                    <p><b><span style={{ fontSize: "medium" }}>{this.props.title}</span></b>{this.props.info}</p>
                     {codeBtn}
                     {demoBtn}
                     {youtubeBtn}
@@ -142,7 +143,6 @@ class CardWork extends React.Component {
                         {appleStoreBtn}
                         {googlePlayBtn}
                     </div>
-                    <p><b><span style={{ fontSize: "medium" }}>{this.props.title}</span></b>{this.props.info}</p>
                 </div>
             </div>
         )
