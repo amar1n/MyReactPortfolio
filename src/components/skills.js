@@ -1,7 +1,9 @@
 import React from 'react';
 
 import mcpLogo from '../assets/images/skills/mcp.png';
-import awsLogo from '../assets/images/skills/aws.png';
+import awsCertifiedLogo from '../assets/images/skills/AWS_Certified.png';
+import awsCDLogo from '../assets/images/skills/AWS_CD.png';
+import awsCSALogo from '../assets/images/skills/AWS_CSA.png';
 import javaLogo from '../assets/images/skills/java.png';
 import psmLogo from '../assets/images/skills/psm-1.png';
 
@@ -38,19 +40,34 @@ export default props => {
 
         <div className="row">
           <div className="col l6 skills">
-            <img className="col s10 offset-s1 l10 offset-l1 awsLogo" src={awsLogo} alt="AWS" style={{padding: '25px'}} />
+            <div>
+              <img className="col s10 offset-s1 l10 offset-l1 awsLogo" src={awsCertifiedLogo} alt="AWS"/>
+              <img className="col s6 offset-s1 l6 offset-l1 awsLogo" src={awsCDLogo} alt="AWS CD" style={{ marginTop: "2%" }}/>
+              <span className="col s6 offset-s1 l6 offset-l1 awsLogo"><small><i>Cert. id: <strong>G8MDDYQKDE1Q19S4</strong></i></small></span>
+              <img className="col s8 offset-s1 l8 offset-l1 awsLogo" src={awsCSALogo} alt="AWS CSA" style={{ marginTop: "2%" }}/>
+              <span className="col s6 offset-s1 l6 offset-l1 awsLogo"><small><i>Cert. id: <strong>JN08F1SCLFE1QLC4</strong></i></small></span>
+            </div>
           </div>
           <div className="col l6 skills">
-            <img className="col s10 offset-s1 l10 offset-l1 javaLogo" src={javaLogo} alt="JAVA" style={{padding: '25px'}} />
+            <div>
+              <img className="col s10 offset-s1 l10 offset-l1 javaLogo" src={javaLogo} alt="JAVA"/>
+              <span className="col s10 offset-s1 l10 offset-l1 mcpjavaLogoLogo"><small><i>Cert. id: <strong>255417133OCAJSE8</strong></i></small></span>
+            </div>
           </div>
         </div>
 
         <div className="row">
           <div className="col l6 skills">
-            <img className="col s10 offset-s1 l10 offset-l1 psmLogo" src={psmLogo} alt="Scrum" style={{padding: '25px'}} />
+            <div>
+              <img className="col s10 offset-s1 l10 offset-l1 psmLogo" src={psmLogo} alt="Scrum"/>
+              <span className="col s10 offset-s1 l10 offset-l1 psmLogo"><small><i>Cert. id: <strong>189887</strong></i></small></span>
+            </div>
           </div>
           <div className="col l6 skills">
-            <img className="col s10 offset-s1 l10 offset-l1 mcpLogo" src={mcpLogo} alt="MCP" style={{padding: '25px'}} />
+            <div>
+              <img className="col s10 offset-s1 l10 offset-l1 mcpLogo" src={mcpLogo} alt="MCP" />
+              <span className="col s10 offset-s1 l10 offset-l1 mcpLogo"><small><i>Cert. id (70-315): <strong>C359-9569</strong></i></small></span>
+            </div>
           </div>
         </div>
 
