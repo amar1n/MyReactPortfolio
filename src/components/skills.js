@@ -43,9 +43,9 @@ export default props => {
             <div>
               <img className="col s10 offset-s1 l10 offset-l1 awsLogo" src={awsCertifiedLogo} alt="AWS"/>
               <img className="col s6 offset-s1 l6 offset-l1 awsLogo" src={awsCDLogo} alt="AWS CD" style={{ marginTop: "2%" }}/>
-              <span className="col s6 offset-s1 l6 offset-l1 awsLogo"><small><i>Cert. id: <strong>G8MDDYQKDE1Q19S4</strong></i></small></span>
+              <span className="col s10 offset-s1 l10 offset-l1 awsLogo"><small><i>Cert. id: <strong>G8MDDYQKDE1Q19S4</strong></i></small></span>
               <img className="col s8 offset-s1 l8 offset-l1 awsLogo" src={awsCSALogo} alt="AWS CSA" style={{ marginTop: "2%" }}/>
-              <span className="col s6 offset-s1 l6 offset-l1 awsLogo"><small><i>Cert. id: <strong>JN08F1SCLFE1QLC4</strong></i></small></span>
+              <span className="col s10 offset-s1 l10 offset-l1 awsLogo"><small><i>Cert. id: <strong>JN08F1SCLFE1QLC4</strong></i></small></span>
             </div>
           </div>
           <div className="col l6 skills">
