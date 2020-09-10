@@ -11,9 +11,9 @@ export default props => {
       <div className="container">
         <h3>Who Am I?</h3>
         <hr />
-        <p className='text-faded'>I'm a Software Engineer since 2001 with extensive experience in the SLDC of products and custom projects, using agile methodologies, common design patterns and SOLID principles.</p>
+        <p className='text-faded'>I'm a Software Engineer since 2001 with extensive experience in the software development life cycle of products and custom projects, using agile methodologies, common design patterns and SOLID principles.</p>
         <p className='text-faded'>I've worked extensively in the analysis and design of Java Web Applications addressed at automating the business processes in the purchasing department of sectors as diverse as Telecom, Pharma, Steel & Mining, Ventilation, Oil & Gas, Public and Airlines between others.</p>
-        <p className='text-faded'>Between 2006 and 2020, my work was used by almost 100 companies in 10 countries working with 47K suppliers and it has integrated with ERPs like Microsoft Dynamics, SAP, Oracle JD Edwards, IBM AS / 400 and Movex.</p>
+        <p className='text-faded'>Between 2006 and 2020 my work was used by almost 100 companies in 10 countries with thousands suppliers and it has integrated with ERPs like Microsoft Dynamics, SAP, Oracle JD Edwards, IBM AS/400 and Movex.</p>
         <p className='text-faded'>Since 2019 I enjoy developing Mobile Apps using Expo, React Native, React Navigation and React Redux.</p>
         <p className='text-faded'>&nbsp;</p>
 
