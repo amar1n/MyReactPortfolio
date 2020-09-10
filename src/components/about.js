@@ -11,9 +11,10 @@ export default props => {
       <div className="container">
         <h3>Who Am I?</h3>
         <hr />
-        <p className='text-faded'>I am software engineer with over 17 years of full lifecycle development experience of products and custom projects, using agile methodologies, common design patterns and SOLID principles.</p>
-        <p className='text-faded'>I have worked extensively in the analysis and design of J2EE Web Applications addressed at automating the business processes in the purchasing department of sectors as diverse as Telecom, Pharma, Steel & Mining, Ventilation, Oil & Gas, Public and Airlines between others.</p>
-        <p className='text-faded'>Since 2006, my work has been used by almost 100 companies in 10 countries working with 47,000 suppliers and integrated with several ERPs like Microsoft Dynamics, SAP, Oracle JD Edwards, IBM AS/400 and Movex.</p>
+        <p className='text-faded'>I'm a Software Engineer since 2001 with extensive experience in the SLDC of products and custom projects, using agile methodologies, common design patterns and SOLID principles.</p>
+        <p className='text-faded'>I've worked extensively in the analysis and design of Java Web Applications addressed at automating the business processes in the purchasing department of sectors as diverse as Telecom, Pharma, Steel & Mining, Ventilation, Oil & Gas, Public and Airlines between others.</p>
+        <p className='text-faded'>Between 2006 and 2020, my work was used by almost 100 companies in 10 countries working with 47K suppliers and it has integrated with ERPs like Microsoft Dynamics, SAP, Oracle JD Edwards, IBM AS / 400 and Movex.</p>
+        <p className='text-faded'>Since 2019 I enjoy developing Mobile Apps using Expo, React Native, React Navigation and React Redux.</p>
         <p className='text-faded'>&nbsp;</p>
 
         <h4>Background</h4>
@@ -22,7 +23,7 @@ export default props => {
           <div className="col s12 m4" style={{ paddingTop: '50px' }} >
             <img src={cleverLogo} alt="Clever Global" className='bgImg responsive-img' style={{ width: '80%' }} />
             <div className="background-text text-faded">
-              Responsible for the development and evolution of <strong>iQuotes Suite®</strong>, a J2EE Web Application for <em>strategic purchasing management</em>.
+              Responsible for the development and evolution of <strong>iQuotes Suite®</strong>, a Java Web Application for <em>strategic purchasing management</em>.
             </div>
             <div className="background-text text-faded">
               Designed and implemented <strong>iQuotes Suite®</strong> projects that integrates with {"clients'"} <em>ERPs and Marketplaces</em>, including functional APIs, single sign-on, integrated look-and-feel and deployment in multiple platforms like BEA WebLogic, JBoss, Tomcat and IBM WebSphere.
