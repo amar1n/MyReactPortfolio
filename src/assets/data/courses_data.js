@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'Spring Boot For Beginners',
+        startDate: '',
+        endDate: '11/2020',
+        school: 'Udemy',
+        duration: '1.5h',
+        url: 'https://www.udemy.com/course/spring-boot-essentials',
+        highlight: '',
+        loved: ''
+    },
+    {
         name: 'Learn the Newest and EASIEST React Native Stack',
         startDate: '',
         endDate: '04/2020',
