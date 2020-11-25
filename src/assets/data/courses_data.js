@@ -6,7 +6,7 @@ export default [
         school: 'Udemy',
         duration: '1.5h',
         url: 'https://www.udemy.com/course/spring-boot-essentials',
-        highlight: '',
+        highlight: true,
         loved: ''
     },
     {
