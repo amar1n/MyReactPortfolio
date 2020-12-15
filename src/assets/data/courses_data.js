@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'Redux Saga with React: Fast-track Redux Saga intro course',
+        startDate: '',
+        endDate: '12/2020',
+        school: 'Udemy',
+        duration: '1.5h',
+        url: 'https://www.udemy.com/course/redux-saga',
+        highlight: true,
+        loved: ''
+    },
+    {
         name: 'Spring Boot For Beginners',
         startDate: '',
         endDate: '11/2020',
