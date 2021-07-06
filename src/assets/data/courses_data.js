@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'Apache Kafka for Developers using Spring Boot[LatestEdition]',
+        startDate: '',
+        endDate: '07/2021',
+        school: 'Udemy',
+        duration: '8h',
+        url: 'https://www.udemy.com/course/apache-kafka-for-developers-using-springboot/',
+        highlight: true,
+        loved: true
+    },
+    {
         name: 'Redux Saga with React: Fast-track Redux Saga intro course',
         startDate: '',
         endDate: '12/2020',
