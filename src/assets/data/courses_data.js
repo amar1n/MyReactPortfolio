@@ -1,6 +1,6 @@
 export default [
     {
-        name: 'Programación Lineal- Investigación de Operaciones',
+        name: 'Linear Programming - Operations Research',
         startDate: '',
         endDate: '12/2022',
         school: 'Udemy',
