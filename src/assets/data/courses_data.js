@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'Programación Lineal- Investigación de Operaciones',
+        startDate: '',
+        endDate: '12/2022',
+        school: 'Udemy',
+        duration: '3h',
+        url: 'https://www.udemy.com/course/programacion-lineal-investigacion-de-operaciones',
+        highlight: '',
+        loved: ''
+    },
+    {
         name: 'Apache Kafka for Developers using Spring Boot[LatestEdition]',
         startDate: '',
         endDate: '07/2021',
