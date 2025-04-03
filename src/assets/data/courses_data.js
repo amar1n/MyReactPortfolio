@@ -6,8 +6,8 @@ export default [
         school: 'Udemy',
         duration: '3h',
         url: 'https://www.udemy.com/course/programacion-lineal-investigacion-de-operaciones',
-        highlight: '',
-        loved: true
+        highlight: true,
+        loved: ''
     },
     {
         name: 'Apache Kafka for Developers using Spring Boot[LatestEdition]',
