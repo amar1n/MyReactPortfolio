@@ -1,5 +1,15 @@
 export default [
     {
+        name: 'OWASP Mobile Top 10 2025: Android & iOS App Security',
+        startDate: '05/2026',
+        endDate: '05/2026',
+        school: 'Udemy',
+        duration: '1h',
+        url: 'https://www.udemy.com/course/owasp-top-10-for-mobile-apps-2025-edition',
+        highlight: '',
+        loved: ''
+    },
+    {
         name: 'Linear Programming - Operations Research',
         startDate: '',
         endDate: '12/2022',
